@@ -1,7 +1,7 @@
-# Telegram web Fake Page
+# Telegram web fake page
 
 ## About <a name = "about"></a>
-This is a fake page for Telegram that steals telegram web session.<br>
+This is a fake page for telegram that steals telegram web session.<br>
 After clicking the submit button, the session will be saved in the log.txt file Then the user is redirected to the Telegram login page.<br>
 Edit the post.php file to rename log.txt and redirect URL.
 
